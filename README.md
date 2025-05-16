@@ -2,8 +2,6 @@
 
 Bem-vindo ao meu projeto **DevLinks**, uma versão personalizada e responsiva do famoso Linktree. O objetivo é reunir em um só lugar meus principais links, redes sociais, portfólio e outros recursos úteis — com um design moderno, leve e com modo claro/escuro.
 
-![DevLinks Preview](./assets/preview.png)
-
 ## ✨ Funcionalidades
 
 - Modo **claro** e **escuro** com troca dinâmica
