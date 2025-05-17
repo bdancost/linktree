@@ -34,3 +34,18 @@ window.addEventListener("DOMContentLoaded", () => {
 
   applyTheme(themeToApply);
 });
+
+const links = document.querySelectorAll("ul li a");
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    link.classList.add("clicked");
+
+    setTimeout(() => {
+      link.classList.remove("clicked");
+    }, 200); // tempo do efeito
+  });
+});
+
+// No final do script.js
+document.getElementById("year").textContent = new Date().getFullYear();

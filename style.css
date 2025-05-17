@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  transition: all 0.3s ease-in-out;
 }
 
 body * {
@@ -118,6 +119,11 @@ ul li a {
   transition: background 0.2s;
 }
 
+ul li a.clicked {
+  transform: scale(0.98);
+  opacity: 0.7;
+}
+
 /* pseudo-selector */
 ul li a:hover {
   background: var(--surface-color-hover);
@@ -128,7 +134,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  padding: 24px 0;
+  padding: 14px 0;
   font-size: 40px;
 }
 
@@ -143,4 +149,10 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
