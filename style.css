@@ -151,6 +151,27 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+#qr-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#qr-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+#qrcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+#qrcode canvas {
+  margin: auto;
+}
+
 footer {
   display: flex;
   justify-content: center;

@@ -49,3 +49,12 @@ links.forEach((link) => {
 
 // No final do script.js
 document.getElementById("year").textContent = new Date().getFullYear();
+
+const qrcode = new QRCode(document.getElementById("qrcode"), {
+  text: "https://github.com/bdancost/linktree", // substitua pelo seu link real
+  width: 128,
+  height: 128,
+  colorDark: "#000000",
+  colorLight: "#ffffff",
+  correctLevel: QRCode.CorrectLevel.H,
+});
