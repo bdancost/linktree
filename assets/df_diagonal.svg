@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect x="0" y="0" width="1024" height="1024" fill="#111827"/><polygon points="0,1024 1024,0 1024,1024" fill="#0EA5E9"/>
+
+<text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle"
+      font-size="520"
+      font-weight="700"
+      font-family="Inter, JetBrains Mono, Fira Code, DejaVu Sans, Arial, sans-serif"
+      fill="#FFFFFF">DF</text>
+</svg>
